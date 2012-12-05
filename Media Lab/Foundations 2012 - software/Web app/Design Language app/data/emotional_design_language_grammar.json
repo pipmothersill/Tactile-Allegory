@@ -1,0 +1,146 @@
+{
+	"Gentle":
+	      {"Emotional Category": "Calm",
+		"Design Language Adjective 1": "Gentle curves",
+		"Design Language Adjective 2": "Open structures",
+		"Design Language Adjective 3": "Flowing shapes",
+		"Design Language Adjective 4": "Slender flat structures",
+		"Design Language Colour": "Aqua",
+		"Design Language Image": ""
+	},
+	"Tranquil":
+		{"Emotional Category": "Relaxation",
+		"Design Language Adjective 1": "Gentle curves",
+		"Design Language Adjective 2": "Open structures",
+		"Design Language Adjective 3": "Flowing shapes",
+		"Design Language Adjective 4": "Slender flat structures",
+		"Design Language Colour": "Light green",
+		"Design Language Image": ""
+	},
+	"Peaceful":
+		{"Emotional Category": "Serene",
+		"Design Language Adjective 1": "Gentle curves",
+		"Design Language Adjective 2": "Open structures",
+		"Design Language Adjective 3": "Flowing shapes",
+		"Design Language Adjective 4": "Slender flat structures",
+		"Design Language Colour": "Green",
+		"Design Language Image": ""
+	},
+	"Comfortable":
+		{"Emotional Category": "Content",
+		"Design Language Adjective 1": "Gentle curves",
+		"Design Language Adjective 2": "Open structures",
+		"Design Language Adjective 3": "Flowing shapes",
+		"Design Language Adjective 4": "Slender flat structures",
+		"Design Language Colour": "Yellow Green",
+		"Design Language Image": ""
+	},
+	"Pleased":
+		{"Emotional Category": "Happy",
+		"Design Language Adjective 1": "Tight curves",
+		"Design Language Adjective 2": "Open structures",
+		"Design Language Adjective 3": "Flowing shapes",
+		"Design Language Adjective 4": "Slender tall structures",
+		"Design Language Colour": "Yellow",
+		"Design Language Image": ""
+	},
+	"Ecstatic":
+		{"Emotional Category": "Elation",
+		"Design Language Adjective 1": "Tight curves",
+		"Design Language Adjective 2": "Open structures",
+		"Design Language Adjective 3": "Pointed shapes",
+		"Design Language Adjective 4": "Slender tall structures",
+		"Design Language Colour": "Orange yellow",
+		"Design Language Image": ""
+	},
+	"Amazed":
+		{"Emotional Category": "Surprise",
+		"Design Language Adjective 1": "Tight curves",
+		"Design Language Adjective 2": "Open structures",
+		"Design Language Adjective 3": "Pointed shapes",
+		"Design Language Adjective 4": "Slender tall structures",
+		"Design Language Colour": "Orange",
+		"Design Language Image": ""
+	},
+	"Attentive":
+		{"Emotional Category": "Alert",
+		"Design Language Adjective 1": "Tight curves",
+		"Design Language Adjective 2": "Open structures",
+		"Design Language Adjective 3": "Pointed shapes",
+		"Design Language Adjective 4": "Slender tall structures",
+		"Design Language Colour": "Red Orange",
+		"Design Language Image": ""
+	},
+	"Alarmed":
+		{"Emotional Category": "Fear",
+		"Design Language Adjective 1": "Tight curves",
+		"Design Language Adjective 2": "Closed structures",
+		"Design Language Adjective 3": "Pointed shapes",
+		"Design Language Adjective 4": "Dense tall structures",
+		"Design Language Colour": "Teal",
+		"Design Language Image": ""
+	},
+	"Worried":
+		{"Emotional Category": "Nervous",
+		"Design Language Adjective 1": "Rounded curves",
+		"Design Language Adjective 2": "Closed structures",
+		"Design Language Adjective 3": "Pointed shapes",
+		"Design Language Adjective 4": "Dense tall structures",
+		"Design Language Colour": "Browny",
+		"Design Language Image": ""
+	},
+	"Enraged":
+		{"Emotional Category": "Anger",
+		"Design Language Adjective 1": "Rounded curves",
+		"Design Language Adjective 2": "Closed structures",
+		"Design Language Adjective 3": "Heavy solid shapes",
+		"Design Language Adjective 4": "Dense tall structures",
+		"Design Language Colour": "Red",
+		"Design Language Image": ""
+	},
+	"Repulsed":
+		{"Emotional Category": "Disgust",
+		"Design Language Adjective 1": "Rounded curves",
+		"Design Language Adjective 2": "Closed structures",
+		"Design Language Adjective 3": "Heavy solid shapes",
+		"Design Language Adjective 4": "Dense low structures",
+		"Design Language Colour": "Purple",
+		"Design Language Image": ""
+	},
+	"Upset":
+		{"Emotional Category": "Sadness",
+		"Design Language Adjective 1": "Drooping curves",
+		"Design Language Adjective 2": "Closed structures",
+		"Design Language Adjective 3": "Heavy solid shapes",
+		"Design Language Adjective 4": "Dense low structures",
+		"Design Language Colour": "Dark purple",
+		"Design Language Image": ""
+	},
+	"Gloomy":
+		{"Emotional Category": "Depression",
+		"Design Language Adjective 1": "Drooping curves",
+		"Design Language Adjective 2": "Closed structures",
+		"Design Language Adjective 3": "Heavy solid shapes",
+		"Design Language Adjective 4": "Dense low structures",
+		"Design Language Colour": "Dark blue",
+		"Design Language Image": ""
+	},
+	"Apathetic":
+		{"Emotional Category": "Lethargy",
+		"Design Language Adjective 1": "Drooping curves",
+		"Design Language Adjective 2": "Closed structures",
+		"Design Language Adjective 3": "Heavy solid shapes",
+		"Design Language Adjective 4": "Dense low structures",
+		"Design Language Colour": "Blue",
+		"Design Language Image": ""
+	},
+	"Exhausted":
+		{"Emotional Category": "Fatigue",
+		"Design Language Adjective 1": "Drooping curves",
+		"Design Language Adjective 2": "Closed structures",
+		"Design Language Adjective 3": "Heavy solid shapes",
+		"Design Language Adjective 4": "Dense low structures",
+		"Design Language Colour": "Light blue",
+		"Design Language Image": ""
+	}
+}
