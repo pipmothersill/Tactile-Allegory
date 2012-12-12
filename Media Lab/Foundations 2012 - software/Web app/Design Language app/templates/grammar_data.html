@@ -1,0 +1,62 @@
+<style type="text/css">
+.table-format {
+	font-size: 18px;
+	text-align: center;
+}
+</style>
+{% extends "base.html" %}
+
+{% block title %}{{ adjective }}{% endblock %}
+
+{% block adjective_input %}{{ adjective_name }}{% endblock %}
+
+{% block content %}
+<p>&nbsp; </p>
+<p>&nbsp; </p>
+<div class="row" id="gv-stories">
+	<div class="span12">
+    <div class="well">
+	  <div class="row">
+	  
+	  <!--{% for story in stories %}
+
+		<div class="span4 gv-story">
+			<div class="well">
+			    <h2><a href="{{ story['link'] }}">{{ story['title'] }}</a></h2>
+			    <i>{{ story['title'] }}</i>
+			    <p>{{ story['contentSnippet'] }}</p>
+			</div>
+		</div>
+
+	{% endfor %}-->
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <table width=100% class="table-format" cellspacing="20" cellpadding="10">
+      <tr>
+		<th width="22%">Emotional Category</th>
+		<th width="35%">Design Language Adjectives</th>
+		<!--<th>Design Language Adjective 2</th>
+		<th>Design Language Adjective 3</th>
+        <th>Design Language Adjective 4</th>-->
+		<th width="22%">Design Language Colour</th>
+		<th width="21%">Design Language Image</th>
+	</tr>
+	<tr>
+		<td>{{emotional_category}}</td>
+        <td>{{design_language}}</td>
+        <!--<td>{{design_language_2}}</td>
+        <td>{{design_language_3}}</td>
+        <td>{{design_language_4}}</td>-->
+        <td>{{design_language_colour}}</td>
+        <td>{{design_language_image}}</td>
+	</tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+		</div>  
+	  </div> 
+	</div>  
+</div>  
+
+{% endblock %}
+

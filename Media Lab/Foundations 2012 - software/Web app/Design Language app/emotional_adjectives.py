@@ -1,47 +1,34 @@
 import json
 import feedparser
-import urllib
-from urllib2 import urlopen
-import HTMLParser
 
 # read in mapping of adjectives to paths of related design language variables
 f = open('data/emotional_design_language_grammar.json', 'r')
 # contents of emotional_design_language_grammar.json
-path_lookup = json.loads(f.read())
+emotional_data = json.loads(f.read())
 
-#def recent_stories_from(country):
-#    '''
-#    Return a list of the last 3 stories for a given country
-#    '''
-#    h = HTMLParser.HTMLParser()
-#    raw_content = urlopen( _content_url_via_google_for( country ) ).read()
-#    content = json.loads( raw_content )
-#    stories = []
-#    for details in content['responseData']['feed']['entries']:
-#        stories.append( {
-#            'title': details['title'],
-#            'link': details['link'],
-#            'author': details['author'],
-#            'contentSnippet': h.unescape(details['contentSnippet'])
-#            } )
-#    return stories
-
-'''this is called by get-to-know.py'''
+'''this returns all the adjectives - the top layer "keys" in the json file'''
 def adjective_list():
-    '''
-    Return a list of all the countries with feeds on the Global Voices site
-    '''
-    return path_lookup.keys()
+    return emotional_data.keys()
 
-#def _content_url_via_google_for(country):
-#    '''
-#    Return the URL to the RSS content for a country via the Google API, so we can get in JSON directly 
-#    (rather than in XML)
-#    '''
-#    return "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=3&q="+ urllib.quote( _rss_url_for(country).encode("utf-8") )
-#
-#def _rss_url_for(country):
-#    '''
-#    Return the URL to the RSS feed of stories for a country
-#    '''
-#    return "http://globalvoicesonline.org" + path_lookup[country] + "feed";
+'''this reads in the selective adjective into the json file and returns the related emotional category'''
+def emotional_category(adjective):
+    emotional_category = emotional_data[adjective]['Emotional Category']
+    return emotional_category
+
+'''this reads in the selective adjective into the json file and returns the related design languages'''
+def design_language(adjective):
+    design_language = emotional_data[adjective]['Design Language Adjective']
+    #    design_language_1 = design_language[0]
+#    design_language_2 = design_language[1]
+#    design_language_3 = design_language[2]
+    return design_language
+
+'''this reads in the selective adjective into the json file and returns the related design language colour'''
+def design_language_colour(adjective):
+    design_language_colour = emotional_data[adjective]['Design Language Colour']
+    return design_language_colour
+
+'''this reads in the selective adjective into the json file and returns the related design language image'''
+def design_language_image(adjective):
+    design_language_image = emotional_data[adjective]['Design Language Image']
+    return design_language_image
